@@ -46,21 +46,21 @@ bin/
 
 ```
 Shortening URLs:
-  https://www.example.com -> 1234abcd
-  https://openai.com -> abcd5678
-  https://github.com -> efgh9012
+  https://www.example.com -> https://short.ly/3f1755e8
+  https://openai.com -> https://short.ly/43a2c069
+  https://github.com -> https://short.ly/ec158a91
 
 Cache after shortening (most-recent last):
-  1234abcd
-  abcd5678
+  https://short.ly/43a2c069
+  https://short.ly/ec158a91
 
 Retrieving URLs:
-  Code: abcd5678 maps to https://openai.com
-  Code: 1234abcd maps to https://www.example.com
+  Code: https://short.ly/43a2c069 maps to https://openai.com
+  Code: https://short.ly/3f1755e8 maps to https://www.example.com
 
 Cache after retrievals (most-recent last):
-  abcd5678
-  1234abcd
+  https://short.ly/43a2c069
+  https://short.ly/3f1755e8
 ```
 
 *(Short codes will be random in your output)*
